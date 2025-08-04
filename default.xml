@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto"
+          fetch="https://git.yoctoproject.org/git/"
+          review="review.yoctoproject.org" />
+
+  <remote name="firmcraft"
+          fetch="https://github.com/FirmCraft-Technologiess" />
+
+  <!-- Core Yocto layers (Scarthgap) -->
+  <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap" />
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="yocto" revision="scarthgap" />
+
+  <!-- Raspberry Pi BSP -->
+  <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="scarthgap" />
+
+  <!-- BeagleBone BSP -->
+  <project name="meta-ti" path="sources/meta-ti" remote="yocto" revision="scarthgap" />
+
+  <!-- Firmcraft BSP -->
+  <project name="meta-firmcraft-bsp" path="sources/meta-firmcraft-bsp" remote="firmcraft" revision="scarthgap" />
+
+  <!-- Meta layers for common GUI packages -->
+  <project name="meta-qt6" path="sources/meta-qt6" remote="yocto" revision="scarthgap" />
+
+</manifest>
+
