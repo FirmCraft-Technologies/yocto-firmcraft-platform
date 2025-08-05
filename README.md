@@ -62,8 +62,6 @@ bitbake-layers add-layer ../sources/meta-ti/meta-beagle
 bitbake-layers add-layer ../sources/meta-qt6
 bitbake-layers add-layer ../sources/meta-firmcraft-bsp
 ```
-💡 A helper script (setup.sh) is also included and can automatically add layers and configure common settings after repo sync.
-
 # 🛠️ Build Your Image
 For Raspberry Pi 4:
 
@@ -103,6 +101,6 @@ Replace /dev/sdX with your actual SD card device.
 For commercial support, custom BSP development, or product integration services, reach out to:
 
 **FirmCraft Technologies**
-📧 **contact@firmcraft.in**
+📧 **info@firmcraft.in**
 🌐 https://www.firmcraft.in
 
